@@ -74,6 +74,139 @@
       ],
       "ast": [
         "aggregate/ast/dcdc93df6b9c6eb53facb0fff725069d9528d735/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/dcdc93df6b9c6eb53facb0fff725069d9528d735.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0.151",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubCommit": "de8500740cdcabffb9734f503e4889def823cf10",
+          "githubTag": "v1.0.151",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_json-1.0.151/src/de.rs"
+        },
+        {
+          "packageName": "num-bigint",
+          "ecosystem": "CARGO",
+          "version": "0.4.8",
+          "githubOrg": "rust-num",
+          "githubRepo": "num-bigint",
+          "githubCommit": "65330056d6c00def4c6cda78c87453f4c2a76913",
+          "githubTag": "num-bigint-0.4.8",
+          "githubUrl": "https://github.com/rust-num/num-bigint",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.4.8/src/bigint/convert.rs"
+        },
+        {
+          "packageName": "pyo3",
+          "ecosystem": "CARGO",
+          "version": "0.28.3",
+          "githubOrg": "pyo3",
+          "githubRepo": "pyo3",
+          "githubCommit": "743af645e7143be6abe2217aafaa0540cf532af4",
+          "githubTag": "v0.28.3",
+          "githubUrl": "https://github.com/pyo3/pyo3",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-0.28.3/src/types/dict.rs"
+        },
+        {
+          "packageName": "smallvec",
+          "ecosystem": "CARGO",
+          "version": "1.16.2",
+          "githubOrg": "servo",
+          "githubRepo": "rust-smallvec",
+          "githubCommit": "ccf5fc71044d491c46a3d79e7ed53948e6da1590",
+          "githubTag": "v1.16.2",
+          "githubUrl": "https://github.com/servo/rust-smallvec",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/smallvec-1.16.2/src/lib.rs"
+        },
+        {
+          "packageName": "bitvec",
+          "ecosystem": "CARGO",
+          "version": "1.1.1",
+          "githubOrg": "bitvecto-rs",
+          "githubRepo": "bitvec",
+          "githubUrl": "https://github.com/bitvecto-rs/bitvec",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitvec-1.1.1/src/lib.rs"
+        },
+        {
+          "packageName": "ahash",
+          "ecosystem": "CARGO",
+          "version": "0.8.12",
+          "githubOrg": "tkaitchuck",
+          "githubRepo": "ahash",
+          "githubCommit": "10c4f487e85c62bb12618ab5a4bb84b16802cdad",
+          "githubTag": "v0.8.12",
+          "githubUrl": "https://github.com/tkaitchuck/ahash",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.8.12/src/random_state.rs"
+        },
+        {
+          "packageName": "pyo3-ffi",
+          "ecosystem": "CARGO",
+          "version": "0.28.3",
+          "githubOrg": "pyo3",
+          "githubRepo": "pyo3",
+          "githubCommit": "743af645e7143be6abe2217aafaa0540cf532af4",
+          "githubTag": "v0.28.3",
+          "githubUrl": "https://github.com/pyo3/pyo3",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-ffi-0.28.3/src/cpython/unicodeobject.rs"
+        },
+        {
+          "packageName": "lexical-parse-float",
+          "ecosystem": "CARGO",
+          "version": "1.0.6",
+          "githubOrg": "Alexhuszagh",
+          "githubRepo": "rust-lexical",
+          "githubCommit": "c37664bb94219505c0007d590454337f72411f70",
+          "githubTag": "v1.0.6",
+          "githubUrl": "https://github.com/Alexhuszagh/rust-lexical",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lexical-parse-float-1.0.6/src/options.rs"
+        },
+        {
+          "packageName": "codspeed-criterion-compat-walltime",
+          "ecosystem": "CARGO",
+          "version": "2.10.1",
+          "githubOrg": "CodSpeedHQ",
+          "githubRepo": "codspeed-rust",
+          "githubCommit": "071a15cf33fc266221ba444ef0734e5622655556",
+          "githubTag": "v2.10.1",
+          "githubUrl": "https://github.com/CodSpeedHQ/codspeed-rust",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/codspeed-criterion-compat-walltime-2.10.1/src/bencher.rs"
+        },
+        {
+          "packageName": "pyo3-build-config",
+          "ecosystem": "CARGO",
+          "version": "0.28.3",
+          "githubOrg": "pyo3",
+          "githubRepo": "pyo3",
+          "githubCommit": "743af645e7143be6abe2217aafaa0540cf532af4",
+          "githubTag": "v0.28.3",
+          "githubUrl": "https://github.com/pyo3/pyo3",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.28.3/src/lib.rs"
+        },
+        {
+          "packageName": "num-traits",
+          "ecosystem": "CARGO",
+          "version": "0.2.19",
+          "githubOrg": "rust-num",
+          "githubRepo": "num-traits",
+          "githubCommit": "7ec3d41d39b28190ec1d42db38021107b3951f3a",
+          "githubTag": "num-traits-0.2.19",
+          "githubUrl": "https://github.com/rust-num/num-traits",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-traits-0.2.19/src/lib.rs"
+        }
       ]
     }
   ],
