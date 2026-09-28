@@ -1,0 +1,7 @@
+[2026-09-28T07:44:24Z] === AST ITERATION 1 START | repo=pydantic/jiter sha=dcdc93df ===
+[2026-09-28T07:44:24Z] [iter=1] PHASE START: ast repo=pydantic/jiter sha=dcdc93df
+[2026-09-28T07:44:24Z] [iter=1] Building AST aggregate chunks
+[2026-09-28T07:44:48Z] [iter=1] AST chunks built count=1 triples=291489
+[2026-09-28T07:44:48Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/dcdc93df6b9c6eb53facb0fff725069d9528d735/.complete
+[2026-09-28T07:44:48Z] [iter=1] PHASE END: ast elapsed_s=25 elapsed_min=0.4
+[2026-09-28T07:44:48Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
