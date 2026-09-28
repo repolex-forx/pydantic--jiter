@@ -1,0 +1,11 @@
+{
+  "org": "pydantic",
+  "repo": "jiter",
+  "versions": [
+    {
+      "commit": "dcdc93df6b9c6eb53facb0fff725069d9528d735",
+      "tag": "v0.14.0",
+      "parsed_at": "2026-09-28T07:51:48.136102+00:00"
+    }
+  ]
+}
